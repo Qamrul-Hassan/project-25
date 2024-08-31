@@ -16,7 +16,7 @@
     <title>Klinik</title>
     
 </head>
-<body class="font-sans">
+<body class="font-sans  focus:ring-blue-900 ring-offset-2">
 
     <!-- Top Info Bar -->
     <div class="top-info-bar bg-gray-100 border-b border-gray-200 py-2 fixed w-full z-40">
@@ -59,7 +59,7 @@
     </header>
 
     <!-- Health Section -->
-    <div class="flex min-h-screen ">
+    <div class="flex h-screen ">
         <div class="w-1/2 bg-blue-600 text-white flex flex-col justify-center items-start p-20">
             <h1 class="text-5xl mb-10">Good Health Is The Root of All Happiness</h1>
             <div class="flex space-x-10">
@@ -79,10 +79,77 @@
         </div>
         <div class="w-1/2 bg-cover bg-center relative" style="background-image: url('/img/carousel-1.jpg');">
             <div class="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center">
-                <h2 class="text-white text-6xl">Cardiology</h2>
+                <h2 class="text-gray-400 text-7xl font-bold">Cardiology</h2>
             </div>
         </div>
     </div>
+
+    <!--Footer-->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+          <!-- Address Column -->
+          <div>
+            <h3 class="font-bold mb-4 text-xl">Address</h3>
+            <p><i class="fa fa-map-marker-alt me-3"></i> 123 Street, New York, USA</p>
+            <p><i class="fa fa-phone-alt me-3"></i> +012 345 67890</p>
+            <p><a href="mailto:name@domain.com" class="text-blue-400"><i class="fa fa-envelope me-3"></i> name@domain.com</a></p>
+            <div class="flex space-x-4 mt-4">
+                <a href="#" class="inline-flex items-center justify-center w-8 h-8 border border-white text-white rounded-full hover:bg-white hover:text-blue-500">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  
+                  <a href="#" class="inline-flex items-center justify-center w-8 h-8 border border-white text-white rounded-full hover:bg-white hover:text-blue-500">
+                    <i class="fab fa-facebook-f"></i></a>
+                  </a>
+                  
+                  <a href="#" class="inline-flex items-center justify-center w-8 h-8 border border-white text-white rounded-full hover:bg-white hover:text-blue-500">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="#" class="inline-flex items-center justify-center w-8 h-8 border border-white text-white rounded-full hover:bg-white hover:text-blue-500">
+                    <i class="fab fa-linkedin-in"></i></a>
+                  </a>
+                  
+            </div>
+          </div>
+          <!-- Services Column -->
+          <div>
+            <h3 class="font-bold  mb-4 text-xl">Services</h3>
+            <ul>
+              <li>Editing</li>
+              <li>Branding</li>
+              <li>Consulting</li>
+              <li>Strategy</li>
+            </ul>
+          </div>
+          <!-- Quick Links Column -->
+          <div>
+            <h3 class="font-bold mb-4 text-xl">Quick Links</h3>
+            <ul>
+              <li>About Us</li>
+              <li>Projects</li>
+              <li>Contact Us</li>
+              <li>Terms & Conditions</li>
+            </ul>
+          </div>
+          <!-- Newsletter Column -->
+          <div>
+            <h3 class="font-bold mb-4 text-xl">Newsletter</h3>
+            <p>Subscribe to our newsletter</p>
+            <form class="mt-4 relative">
+                <input type="email" placeholder="Your email" class="p-2 rounded w-full mb-2">
+                <button type="button" class="py-1 px-2 absolute top-0 right-0 mt-1 mr-2 bg-blue-500 text-white font-bold rounded hover:bg-blue-800">
+                  SignUp
+                </button>
+              </form>
+              
+          </div>
+        </div>
+        <div class="flex justify-around1 mt-8">
+          <p>© 2024 Your Site Name, All Rights Reserved.</p>
+          <p>Designed by HTML Codex</p>
+        </div>
+      </footer>
+      
 
     
 </body>
